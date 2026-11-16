@@ -271,6 +271,39 @@ canvas {
   font-weight: 400;
   letter-spacing: -1.2px;
 }
+.signature {
+  position: absolute;
+  right: 28px;
+  bottom: 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.62;
+}
+.signature-mark {
+  color: #e8edf5;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  line-height: 1;
+}
+.signature-mark sup {
+  font-size: 7px;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin-left: 1px;
+  vertical-align: 6px;
+}
+.signature-name {
+  color: var(--muted);
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  line-height: 1;
+}
 .viewport-bottom {
   position: absolute;
   bottom: 24px;
@@ -853,6 +886,11 @@ select {
     left: 20px;
     right: 20px;
     gap: 8px;
+  }
+  .signature {
+    top: 64px;
+    right: 24px;
+    bottom: auto;
   }
   .parameter-help {
     display: block;
