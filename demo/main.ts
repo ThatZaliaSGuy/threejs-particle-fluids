@@ -52,7 +52,7 @@ app.innerHTML = `
           `<option value="${level.id}"${level.id === 'medium' ? ' selected' : ''}>${level.label} · ${level.count.toLocaleString('en-US')}</option>`,
       ).join('')}</select></label>
       <div class="scene-label"><span id="scene-category"></span><h1 id="scene-name"></h1></div>
-      <div class="signature"><span class="signature-mark">ZALIAS<sup>™</sup></span><span class="signature-name">Bryan Amrein</span></div>
+      <div class="signature"><span class="signature-mark">ZALIAS<sup>™</sup></span><span class="signature-name">Bryan Amrein</span><span class="signature-role">Engine &amp; Systems Engineer</span></div>
       <div id="loading" class="loading" role="status"><span class="spinner"></span><strong id="loading-title">Preparing the simulation</strong><span id="loading-copy">Compiling the first frame…</span></div>
       <div id="error" class="error-card" hidden role="alert"><span class="eyebrow">GRAPHICS UNAVAILABLE</span><h2>WebGPU unavailable</h2><p id="error-copy"></p><p>Use a browser with WebGPU and hardware acceleration enabled. Open this demo on localhost or HTTPS.</p><button id="retry" class="primary">Try again ${icon('reset')}</button></div>
       <div class="viewport-bottom">
