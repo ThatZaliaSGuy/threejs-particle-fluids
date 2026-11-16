@@ -11,7 +11,7 @@ import {
   type Values,
 } from './types.js';
 
-const REPO = 'https://github.com/dgreenheck/threejs-particle-fluids';
+const REPO = 'https://github.com/ThatZaliaSGuy/threejs-particle-fluids';
 const app = document.querySelector<HTMLDivElement>('#app')!;
 app.innerHTML = `
   <header class="topbar">

@@ -18,13 +18,13 @@
     "particles",
     "simulation"
   ],
-  "homepage": "https://github.com/dgreenheck/threejs-particle-fluids#readme",
+  "homepage": "https://github.com/ThatZaliaSGuy/threejs-particle-fluids#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dgreenheck/threejs-particle-fluids.git"
+    "url": "git+https://github.com/ThatZaliaSGuy/threejs-particle-fluids.git"
   },
   "bugs": {
-    "url": "https://github.com/dgreenheck/threejs-particle-fluids/issues"
+    "url": "https://github.com/ThatZaliaSGuy/threejs-particle-fluids/issues"
   },
   "type": "module",
   "license": "MIT",

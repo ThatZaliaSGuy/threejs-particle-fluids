@@ -2,9 +2,9 @@
 
 GPU particle physics for [three.js](https://threejs.org): liquids, soft bodies, cloth, and smoke, simulated and rendered with WebGPU.
 
-![Wave Chamber](https://raw.githubusercontent.com/dgreenheck/threejs-particle-fluids/main/public/previews/cover.png)
+![Wave Chamber](https://raw.githubusercontent.com/ThatZaliaSGuy/threejs-particle-fluids/main/public/previews/cover.png)
 
-**[Live demo](https://dgreenheck.github.io/threejs-particle-fluids/)** · **[Documentation](docs/README.md)** · **[API reference](docs/README.md#api-reference)**
+**[Live demo](https://thatzaliasguy.github.io/threejs-particle-fluids/)** · **[Documentation](docs/README.md)** · **[API reference](docs/README.md#api-reference)**
 
 ## Install
 
@@ -51,7 +51,7 @@ Full scene with lighting and camera: [Guide › First scene](docs/guide.md#first
 
 ## Demo
 
-[Live demo](https://dgreenheck.github.io/threejs-particle-fluids/). To run locally (Node.js 22.12+):
+[Live demo](https://thatzaliasguy.github.io/threejs-particle-fluids/). To run locally (Node.js 22.12+):
 
 ```sh
 npm ci
